@@ -7,7 +7,7 @@ Each patch has 4 corresponding spectral channels which are Red (band 4), Green (
 
 The directory tree of the dataset is exactly same as 38-Cloud.
 
-#### *Click [here](g) for downloading the "95-Cloud training set" separatel via Kaggle.*
+#### *Click [here](www.kaggle.com/sorour/95cloud-cloud-segmentation-in-satellite-images) for downloading the "95-Cloud training set" separately via Kaggle.*
 #### *Click [here](https://vault.sfu.ca/index.php/s/VRzcxMyoQlBMT2D) for downloading the "95-Cloud test set" separately.*
 ##### *Click [here](https://www.kaggle.com/sorour/38cloud-cloud-segmentation-in-satellite-images) for downloading the "entire 38-cloud dataset (trainig+test)" through Kaggle.*
 
