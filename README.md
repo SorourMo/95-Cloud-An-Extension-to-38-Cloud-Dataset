@@ -1,6 +1,6 @@
 # 95-Cloud-An-Extension-to-38-Cloud-Dataset
 
-95-Cloud is an extension to our previously introduced cloud detection dataset ([38-Cloud](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)). It consists of 34,701 patches of 384*384 for training. 95-Cloud's test set is exactly same as 38-Cloud.
+95-Cloud is an extension to our previously introduced cloud detection dataset ([38-Cloud](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)). It consists of 34,701 patches of 384*384 for training. 95-Cloud's test set is exactly same as 38-Cloud's.
 The training patches are extracted from 75 Landsat 8 Collection 1 Level-1 scenes mostly located in North America. 95-Cloud's test set includes 9201 patches of 20 scenes.
 
 Each patch has 4 corresponding spectral channels which are Red (band 4), Green (band 3), Blue (band 2), and Near Infrared (band 5). Unlike other computer vision images, these channels are not combined together. Instead, they are in their correspondig directories. 
