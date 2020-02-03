@@ -21,10 +21,19 @@ More information about the dataset could be found [here](https://github.com/Soro
 **************************************
 If you found this dataset useful for your research please cite these two papers:    
 
-```  
+``` 
+@INPROCEEDINGS{95-cloud,
+    title={{Cloud-Net+: A Cloud Segmentation CNN for Landsat 8 Remote Sensing Imagery Optimized with Filtered Jaccard Loss Function}},
+    author={S. Mohajerani and P. Saeedi},
+    year={2020},
+    volume={2001.08768},
+    JOURNAL={arXiv},
+    primaryClass={cs.CV}
+}
+
 @INPROCEEDINGS{38-cloud-1,
   author={S. {Mohajerani} and P. {Saeedi}},
-  booktitle={IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium},
+  booktitle={IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
   title={Cloud-Net: An End-To-End Cloud Detection Algorithm for Landsat 8 Imagery},
   year={2019},
   volume={},
@@ -37,7 +46,7 @@ If you found this dataset useful for your research please cite these two papers:
 
 @INPROCEEDINGS{38-cloud-2,   
   author={S. Mohajerani and T. A. Krammer and P. Saeedi},   
-  booktitle={2018 IEEE 20th International Workshop on Multimedia Signal Processing (MMSP)},   
+  booktitle={IEEE 20th International Workshop on Multimedia Signal Processing (MMSP)},   
   title={{"A Cloud Detection Algorithm for Remote Sensing Images Using Fully Convolutional Neural Networks"}},   
   year={2018},    
   pages={1-5},   
