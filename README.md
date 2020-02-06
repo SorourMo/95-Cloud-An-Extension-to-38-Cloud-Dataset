@@ -14,7 +14,7 @@ The directory tree of the dataset is exactly same as 38-Cloud.
 ### Some Important Points:
 1. Thin clouds (haze) are also considered as clouds (as well as thick clouds).
 2. Natural color images are false color images used for further visualization purposes. They have not been used in the training and test phase of \[1] and \[2]\.  
-3. Some of the patches do not have useful information (0 pixel values) in them. That is because of the black margins around the Landsat 8 images. The name of all 21502 informative patches (having less than 80\% black margin) are provided in training_patches_95-cloud_nonempty.csv.
+3. Some of the patches do not contain useful information (many 0 pixel values). That is because of the black margins around the Landsat 8 images. The name of all 21502 informative patches (having less than 80\% black margin) are provided in training_patches_95-cloud_nonempty.csv.
 
 
 More information about the dataset could be found [here](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/README.md).
