@@ -19,7 +19,7 @@ The directory tree of the dataset is exactly same as 38-Cloud.
 
 More information about the dataset could be found [here](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/README.md).
 **************************************
-If you found this dataset useful for your research please cite these two papers:    
+If you found this dataset useful for your research please cite these three papers:    
 
 ``` 
 @INPROCEEDINGS{95-cloud,
