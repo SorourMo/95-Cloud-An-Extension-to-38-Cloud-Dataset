@@ -2,17 +2,21 @@
 
 95-Cloud, introduced in ([Cloud-Net+](https://arxiv.org/abs/2001.08768)), is an extension to our previously released cloud detection dataset ([38-Cloud](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)). It consists of 34,701 patches of 384*384 for training. 95-Cloud's test set is exactly same as 38-Cloud's.
 The training patches are extracted from 75 Landsat 8 Collection 1 Level-1 scenes mostly located in North America. 95-Cloud's test set includes 9201 patches of 20 scenes.
+The test sets of 95-Cloud and 38-Cloud are exactly the same. Their training sets however are different. 95-Cloud has 57 more scenes than 38-Cloud for training. 
 
 Each patch has 4 corresponding spectral channels which are Red (band 4), Green (band 3), Blue (band 2), and Near Infrared (band 5). Unlike other computer vision images, these channels are not combined together. Instead, they are in their correspondig directories. 
 
 The directory tree of the dataset is exactly same as 38-Cloud.
 
-#### *Click [here](https://vault.sfu.ca/index.php/s/CrMBgYUh1qRsHAD) for downloading the "95-Cloud training set" separately.*
-#### *Click [here](https://vault.sfu.ca/index.php/s/VRzcxMyoQlBMT2D) for downloading the "95-Cloud test set" separately.*
-##### *Click [here](https://www.kaggle.com/sorour/38cloud-cloud-segmentation-in-satellite-images) for downloading the "entire 38-cloud dataset (trainig+test)" through Kaggle.*
+Because of space limitation, the dataset has been split into two parts: 57 scenes of 95-Cloud training + (the rest of the training scenes (38 scenes) and 20 test scenes).
+
+#### *Click [here](https://www.kaggle.com/sorour/95cloud-cloud-segmentation-on-satellite-images) for downloading 57 scenes of "95-Cloud training set".*
+#### *Click [here](https://www.kaggle.com/sorour/38cloud-cloud-segmentation-in-satellite-images/download) for downloading the "rest of the dataset".*
+
+After downloading the data, user should combine them together.
 
 ### Some Important Points:
-1. Thin clouds (haze) are also considered as clouds (as well as thick clouds).
+1. Thin clouds and haze are considered as clouds (as well as thick clouds).
 2. Natural color images are false color images used for further visualization purposes. They have not been used in the training and test phase of \[1] and \[2]\.  
 3. Some of the patches do not contain useful information (many 0 pixel values). That is because of the black margins around the Landsat 8 images. The name of all 21502 informative patches (having less than 80\% black margin) are provided in training_patches_95-cloud_nonempty.csv.
 
