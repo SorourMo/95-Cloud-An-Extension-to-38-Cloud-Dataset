@@ -23,7 +23,7 @@ After downloading the data, user should combine them together.
 
 More information about the dataset could be found [here](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/README.md).
 **************************************
-If you found this dataset useful for your research please cite these three papers:    
+If you found this dataset useful for your research please consider citing these papers:    
 
 ``` 
 @INPROCEEDINGS{95-cloud,
